@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.calender {
+    background-color: crimson;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* title */
+.calender .title {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.calender .title .month {
+    font-size: 25px;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.calender .title .years {
+    font-size: 35px;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.calender .title i {
+    font-size: 15px;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.calender .title i:hover {
+    background-color: white;
+    color: crimson;
+}
+
+/* week */
+.week {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* days */
+.days {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.days div {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.days div:hover {
+    background-color: white;
+    color: crimson;
+}
+
+/* firstlastdays */
+.prev-date, .next-date {
+    color: white;
+}
