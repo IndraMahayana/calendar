@@ -11,7 +11,7 @@ body {
 .container {
     display: grid;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 25%;
 }
 
 .calender {
